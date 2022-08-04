@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,300;1,400&display=swap");
+
+body {
+  max-width: 100vw;
+  margin: auto;
+  font-family: "Montserrat";
+}
+.container {
+  max-width: 100%;
+  margin: auto;
+}
+
+/* navbar  */
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-content: end;
+  align-items: center;
+}
+.navbar-logo {
+  height: 40px;
+  margin-left: 10%;
+}
+nav .list-items {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  list-style-type: none;
+}
+.list-item {
+  text-align: Center;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+}
+.nav-btn {
+  margin-left: 30%;
+  margin-right: 10%;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 16px;
+  padding: 6px 10px;
+  border-radius: 7px;
+  background: transparent;
+}
+/* banner section */
+.banner-section {
+  padding-top: 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 5%;
+}
+.banner-section .left {
+  padding: 5% 15%;
+}
+.banner-section .left img {
+  max-width: 100%;
+  margin: auto;
+  height: 400px;
+}
+.banner-section .right {
+  color: #fff;
+  padding: 5% 10%;
+}
+
+.banner-section .right h1 {
+  font-weight: 900;
+  font-size: 36px;
+}
+.banner-section .right p {
+  opacity: 0.6;
+  margin-bottom: 10%;
+}
+.navbar,
+.banner-section {
+  background-color: rgb(71, 70, 70);
+}
+/* form button */
+.email-form {
+  display: flex;
+  flex-direction: row;
+}
+.email-form img {
+  display: inline;
+  margin-right: -7%;
+  z-index: 1;
+}
+.email-form .email {
+  height: 50px;
+  width: 400px;
+  padding-left: 10%;
+}
+.form-btn {
+  margin: 5px;
+  margin-left: -19%;
+  padding: 5px 20px;
+  background-color: #82c09c;
+  color: #fff;
+  text-align: center;
+  border: 0;
+}
+/* count section */
+.count-section {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.count-section .count-heading {
+  text-align: center;
+}
+.count-section .count {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  margin-left: 5%;
+  gap: 5%;
+  margin-bottom: 5%;
+  margin-right: 3%;
+}
+.count-section .cover-img {
+  height: 600px;
+  padding-left: 13%;
+}
+
+/* hero section */
+.hero-heading {
+  text-align: center;
+  margin-top: 5%;
+}
+.hero-section1,
+.hero-section2,
+.hero-section3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 7%;
+  margin-left: 5%;
+  margin-right: 2%;
+}
+.hero-section1 .left,
+.hero-section2 .right,
+.hero-section3 .left {
+  padding: 3% 15%;
+}
+.hero-section1 .left p,
+.hero-section2 .right p,
+.hero-section3 .left p {
+  margin-bottom: 10%;
+}
+
+.hero1-btn,
+.hero2-btn,
+.hero3-btn {
+  border: 0;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #82c09c;
+}
+
+.hero-section1 .right img,
+.hero-section3 .right img {
+  height: 400px;
+  width: 600px;
+}
+
+.hero-section2 .left img {
+  height: 450px;
+  margin-left: 15%;
+}
+/* expertise section */
+.expertise-heading {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+.expertise-heading h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+.expertise-heading p {
+  padding: 0 10%;
+}
+.card1 img {
+  height: 500px;
+}
+.expertise-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5%;
+  margin-left: 5%;
+}
+.expertise-btn {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  font-size: 26px;
+  padding: 10px 20px;
+  border: 0;
+  color: white;
+  background-color: #82c09c;
+  margin-bottom: 3%;
+}
+
+.footer {
+  background-color: #1f1f1f;
+}
+.footer-logo {
+  height: 40px;
+  margin-left: 5%;
+  padding-top: 3%;
+}
+.footer1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.social-icons {
+  padding-top: 2%;
+  gap: 3%;
+  margin-left: 50%;
+}
+.social-icon {
+  height: 30px;
+}
+
+.hr-line {
+  border: 2px solid gray;
+  margin: 3% 0;
+}
+.footer2 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.links {
+  color: #fff;
+  padding-bottom: 5%;
+}
+.links h1 {
+  font-size: 18px;
+  padding-bottom: 3%;
+}
+.links h2 {
+  font-size: 13px;
+}
