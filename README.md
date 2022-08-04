@@ -20,4 +20,4 @@ learned to create footer with Social Media Icons.
 
 **Live Link :** [Deployed Link](https://html-css-project-12.netlify.app/)
 >### Preview :
-![Homepage screenshot](./public/BuisnessLandingPage.png "Buisness Landing Page")
+![Homepage screenshot](./public/BusinessLandingPage.png "Buisness Landing Page")
