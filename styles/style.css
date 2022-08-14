@@ -115,9 +115,13 @@ nav .list-items {
   margin-bottom: 5%;
   margin-right: 3%;
 }
+
 .count-section .cover-img {
-  height: 600px;
-  padding-left: 13%;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  height: 55vw;
+  object-fit: cover;
 }
 
 /* hero section */
@@ -182,7 +186,7 @@ nav .list-items {
   padding: 0 10%;
 }
 .card1 img {
-  height: 500px;
+  height: 300px;
 }
 .expertise-cards {
   display: grid;
@@ -246,4 +250,104 @@ nav .list-items {
 }
 .links h2 {
   font-size: 13px;
+}
+
+/* MediaQuery */
+@media only screen and (max-width: 1180px) {
+  .form-btn {
+    margin-left: -23%;
+  }
+  .card1 {
+    margin-right: 5%;
+  }
+}
+@media only screen and (max-width: 1180px) {
+  .hero-section1 .right img,
+  .hero-section3 .right img {
+    height: 300px;
+    width: 450px;
+  }
+  .expertise-cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  .count-section .count {
+    grid-template-columns: 1fr 1fr;
+  }
+  .banner-section,
+  .hero-section1,
+  .hero-section2,
+  .hero-section3 {
+    grid-template-columns: 1fr;
+  }
+  .banner-section {
+    width: 100vw;
+  }
+  .hero-section1 .right,
+  .hero-section3 .right {
+    margin-left: 10%;
+  }
+  .form-btn {
+    margin-left: -100px;
+  }
+  .hero-section1 .right img,
+  .hero-section3 .right img {
+    height: 200px;
+    width: 300px;
+  }
+  .hero-section2 .left img {
+    height: 300px;
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 930px) {
+  .expertise-heading {
+    grid-template-columns: 1fr;
+  }
+  .list-item {
+    display: none;
+  }
+  .expertise-cards {
+    grid-template-columns: 1fr;
+  }
+  .card1:last-child {
+    margin-bottom: 40%;
+  }
+  .count-heading h1 {
+    margin-right: 5%;
+  }
+  .hero-section1 .left h1,
+  .hero-section3 .left h1,
+  .hero-section2 .right h1 {
+    font-size: 21px;
+  }
+  .navbar {
+    margin-top: 1%;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .footer2 {
+    display: none;
+  }
+  .card1 {
+    margin-left: 5%;
+  }
+  .card1 p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .banner-img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+  }
+  .nav-btn {
+    font-size: 12px;
+    padding: 1px 5px;
+  }
+  input.email {
+    margin-left: -10px;
+  }
 }
